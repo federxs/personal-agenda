@@ -25,8 +25,15 @@ function listContactsCtrl($scope, $location) {
                 {"mData": "name"},
                 {"mData": "email"},
                 {"mData": "maritalStatus"},
-                {"mData": "telephoneNumber"}
+                {"mData": "telephoneNumber"},
+                {"mData": "ver"}
             ],
+            // "columnDefs": [ {
+            //     "targets": 4,
+            //     "render": function ( data, type, row, meta ) {
+            //         return (data.maritalStatus===0)?"Soltero":"Casado";
+            //     }
+            // } ],
             "iDisplayLength": 10,
             language: {
                 "emptyTable": "No hay informaci&oacute;n disponible en la tabla",
@@ -48,8 +55,8 @@ function listContactsCtrl($scope, $location) {
             {
                 contactId: 1,
                 name: "Juancito Pérez",
-                mail: "juanci@gmail.com",
-                maritalState: 0,
+                email: "juanci@gmail.com",
+                maritalStatus: 0,
                 telephoneNumber: "+54 3541 58 2613",
                 profilePictureURI: "assets/profile_pic.png",
                 hobbies: ["futbol", "informática", "lectura"]
@@ -57,32 +64,32 @@ function listContactsCtrl($scope, $location) {
             {
                 contactId: 1,
                 name: "Juancito Pérez",
-                mail: "juanci@gmail.com",
-                maritalState: 0,
+                email: "juanci@gmail.com",
+                maritalStatus: 0,
                 telephoneNumber: "+54 3541 58 2613",
                 profilePictureURI: "assets/profile_pic.png",
                 hobbies: ["futbol", "informática", "lectura"]
             }, {
                 contactId: 1,
                 name: "Juancito Pérez",
-                mail: "juanci@gmail.com",
-                maritalState: 0,
+                email: "juanci@gmail.com",
+                maritalStatus: 0,
                 telephoneNumber: "+54 3541 58 2613",
                 profilePictureURI: "assets/profile_pic.png",
                 hobbies: ["futbol", "informática", "lectura"]
             }, {
                 contactId: 1,
                 name: "Juancito Pérez",
-                mail: "juanci@gmail.com",
-                maritalState: 0,
+                email: "juanci@gmail.com",
+                maritalStatus: 0,
                 telephoneNumber: "+54 3541 58 2613",
                 profilePictureURI: "assets/profile_pic.png",
                 hobbies: ["futbol", "informática", "lectura"]
             }, {
                 contactId: 1,
                 name: "Juancito Pérez",
-                mail: "juanci@gmail.com",
-                maritalState: 0,
+                email: "juanci@gmail.com",
+                maritalStatus: 0,
                 telephoneNumber: "+54 3541 58 2613",
                 profilePictureURI: "assets/profile_pic.png",
                 hobbies: ["futbol", "informática", "lectura"]
